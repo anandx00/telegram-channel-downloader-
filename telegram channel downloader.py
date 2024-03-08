@@ -12,7 +12,7 @@ title = ''  # Title for channel provide the tittle name of the channel
  
 
 def download_media(group, cl, name, starting_message_id=None):
-    print(cl,name)
+
     messages = cl.iter_messages(group, offset_id=starting_message_id)  # Use iter_messages for performance
     while(starting_message_id>0): #it prevents the auto logout session after 2 hours
         for message in tqdm(messages):
