@@ -1,0 +1,8 @@
+python
+tdqm module
+telethon module
+
+api_id =   # Your API ID as an interger
+api_hash = ''  # Your API HASH as an string
+starting_message_id =   # Replace with your desired message ID as an integer
+title = ''  # Title for channel provide the tittle name of the channel
